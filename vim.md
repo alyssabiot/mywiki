@@ -1,51 +1,57 @@
+### Commands to work on 
+
+`A` : append text = go to end of line & insert
+
+`0` : start of line
+
+`Ctrl+r` : undo the undo
+
+`y` : copy
+
+`p` : paste previously copied/deleted content
+
+`vs` : split screen vertically 
+
 ### Basic commands
 
-x : delete character under cursor
+`x` : delete character under cursor
 
-A : append text = go to end of line & insert
+`dw` : delete word 
 
-dw : delete word 
+`d$` : delete to the end of line
 
-d$ : delete to the end of line
+`w` : word
 
-w : word
+`e` : end of word
 
-e : end of word
+`$` : end of line
 
-$ : end of line
+`2w` : move 2 words forward
 
-0 : start of line
+`d2w` : delete 2 words 
 
-2w : move 2 words forward
+`dd` : delete line
 
-d2w : delete 2 words 
+`2dd` : delete 2 lines
 
-dd : delete line
+`u` : undo last change
 
-2dd : delete 2 lines
+`U` : undo all changes in line
 
-u : undo last change
+`o` : new line & insert
 
-U : undo all changes in line
+`r` : replace character under cursor
 
-Ctrl+r : undo the undo
+`ce` : change to the end of word = delete to the end of word & insert 
 
-y : copy
+`c$` : change to the end of line = delete to the end of line & insert
 
-p : paste previously copied/deleted content
+`Ctrl+g` : file location
 
-r : replace character under cursor
+`222G` : go to line 222
 
-ce : change to the end of word = delete to the end of word & insert 
+`G` : go to end of file
 
-c$ : change to the end of line = delete to the end of line & insert
-
-Ctrl+g : file location
-
-222G : go to line 222
-
-G : go to end of file
-
-gg : go to beginning of file
+`gg` : go to beginning of file
 
 
